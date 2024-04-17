@@ -44,3 +44,48 @@ Level 9-10
 Level 10-11
 -cat data.txt | base64 -d
 -6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+
+Level 11-12
+-cat data.txt  | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+-JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+
+Level 12-13
+-recursively unzip the data many times
+-wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+
+Level 13-14
+-ssh -i sshkey.private bandit14@localhost -p 2220
+-no passwor required
+
+Level 14-15
+-cat /etc/bandit_pass/bandit14
+-nc localhost 30000
+-jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+
+Level 15-16
+-cat /etc/bandit_pass/bandit15
+-openssl s_client --connect localhost:30001
+-JQttfApK4SeyHwDlI9SXGR50qclOAil1
+
+Level 16-17
+-cat /etc/bandit_pass/bandit16
+-nmap localhost -sV -p 31000-32000
+-we get private key using which we ssh to net level
+--sudo ssh -i rsa.key bandit17@bandit.labs.overthewire.org -p 2220 (using the private key found in previous level
+
+Level 17-18
+-diff passwords.new passwords.old
+-hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+
+Level 18-19
+--login is not possible because of bash misconfiguration
+-ssh bandit18@bandit.labs.overthewire.org -p 2220 -t /bin/sh
+-cat readme
+-awhqfNnAbc1naukrpqDYcF95h7HoMTrC 
+
+Level 19-20
+-./bandit20-do cat /etc/bandit_pass/bandit20
+-VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+
+Level 20-21
+-
