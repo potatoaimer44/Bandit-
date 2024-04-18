@@ -88,4 +88,23 @@ Level 19-20
 -VxCazJaVykI6W36BkBU0mJTCM8rR95XT
 
 Level 20-21
--
+-in one terminal run the file with suid bit set which is ./suconnetc 4444
+-in another teminal run nc -lvp 4444
+-paste the password of previous level
+-NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
+
+Level 21-22
+-cat the file with cronjob configuration for level 22
+-cat /usr/bin/cronjob_bandit22.sh
+-cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+-WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff
+
+Level 22-23
+-cat the script file for bandit22
+-copy the content to local terminal and assign the user name to bandit23
+-run the script and paste the name of file given by the script to ssh terminal for bandit22
+-cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+-QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G
+
+Level 23-24
+
